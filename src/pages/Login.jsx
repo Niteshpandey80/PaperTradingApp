@@ -19,7 +19,7 @@ export default function Login() {
   return (
     <div className="login-page">
       <div className="login-card">
-        <div className="brand big"><span className="logo">◢</span> Paper Terminal</div>
+        <div className="brand big"><span className="logo">◢</span> Nitesh Terminal</div>
         <p className="muted">Trade live crypto markets with practice money. Your account starts at $0.</p>
         <div className="seg full">
           <button className={mode === 'login' ? 'on' : ''} onClick={() => { setMode('login'); setError(''); }}>Log in</button>
